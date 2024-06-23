@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .register-page {
+    background: url("img/poto2.jpeg") center center fixed;
+    background-size: cover;
+  }
+  .register-box {
+    background: rgba(6, 166, 102, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .register-box input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0 20px 0 20px;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .register-box button {
+    width: 80%;
+    padding: 10px;
+    background-color: #00643a;
+    color: rgb(245, 250, 248);
+    border: none;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .register-box button:hover {
+    background-color: #67c53f;
+  }
+  
+  .register-box p {
+   text-decoration: none;
+  }
+  
